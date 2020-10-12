@@ -16,7 +16,7 @@
 }
 
 .aboutMe {
-  background-image: url('/images/85328.jpg');
+  background-image: url('/images/IMG_20201012_212535.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -43,5 +43,45 @@
   background: #06eeff;
   color: rgb(0, 0, 0);
   padding: 2em;
+}
+/* Spinner1*/
+.spinner-1:before{
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top:55%;
+  left:50%;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  border-radius: 50%;
+  border: 3px solid blue;
+  border-top-color: gold;
+  animation: spinner 0.7s linear infinite;
+}
+
+/* Spinner2*/
+.spinner-2:before{
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top:55%;
+  left:50%;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+  margin-left: -30px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: gold;
+  border-bottom-color: gold;
+  animation: spinner 0.7s ease infinite;
+}
+
+@keyframes spinner{
+  to{
+    transform: rotate(360deg);
+  }
 }
 
