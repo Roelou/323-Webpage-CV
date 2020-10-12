@@ -11,13 +11,7 @@ function HeroSection() {
             <h1>GET READY!!!</h1>
             <p>MAY CONTAIN EXPLOSIONS</p>
             <div className='hero-btns'>
-                <Button 
-                    className='btns' 
-                    btnStyle='btn--outline' 
-                    btnSize='btn--large'
-                >
-                    ABOUT ME
-                </Button>
+                
             </div>
         </div>
     );

@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
 import './App.css';
 import contactMe from './components/pages/contactMe';
+import aboutMe from './components/pages/aboutMe';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
             {Home} />
             <Route path='/contact-me' component=
             {contactMe} />
+            <Route path='/about-me' component=
+            {aboutMe} />
           </Switch>
       </Router>
     </>
@@ -22,3 +25,4 @@ function App() {
   }
 
 export default App;
+

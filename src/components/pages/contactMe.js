@@ -1,10 +1,11 @@
 import React from 'react'
 import '../../App.css';
 import ContactForm from '../ContactForm';
+import '../contactMe.css';
 
 function contactMe() {
     return (
-        <div>
+        <div className='email-container'>
             <ContactForm/>
         </div>
     );

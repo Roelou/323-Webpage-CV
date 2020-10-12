@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import { Button } from './Buttons';
+
 
 export default function ContactMe(){
     function sendEmail(e){
@@ -17,10 +17,10 @@ export default function ContactMe(){
 
     return(
         <div>
-            <div className="email-container">
+            <div className="email-container" style={{textAlign: 'center'}}>
                 <form onSubmit={sendEmail}>
-                    <div className="email-box">
-                        <div className="email-labels">
+                    <div className="email-box" style={{paddingTop: '10em'}}>
+                        <div className="email-labels" style={{outline: '#000000'}}>
                             <input type="text" className="form-control" placeholder="Name" name="name"/>
                         </div>
                         <div className="email-labels">
